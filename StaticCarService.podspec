@@ -28,7 +28,7 @@ spec.library               = 'z'
 
 spec.requires_arc          = true
 
-spec.xcconfig              = { "HEADER_SEARCH_PATHS" => "${PODS_ROOT}/StaticCarService/StaticCarService.framework/Headers" }
+spec.xcconfig              = { "HEADER_SEARCH_PATHS" => "${PODS_ROOT}/StaticCarService/StaticCarService.framework" }
 
 end
 
